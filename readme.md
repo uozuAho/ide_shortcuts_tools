@@ -27,6 +27,11 @@ doing.
 
 if time, do debugging?
 
+
+Practice this yourself! A good kata to try this on:
+https://github.com/MYOB-Technology/General_Developer/tree/main/katas/kata-refactoring
+
+
 # References
 
 rider shortcut cheat sheet: https://myob.slack.com/archives/C01F5CGNCLU/p1606089396069500
