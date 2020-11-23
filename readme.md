@@ -1,4 +1,4 @@
-# IDE shortcuts etc.
+# IDE tools and shortcuts
 
 A quick demo project to demonstrate and practice IDE tools and shortcuts.
 Geared for my Visual Studio + Resharper setup, but should be repeatable in other
