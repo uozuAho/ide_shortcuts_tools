@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace StarCannon
+﻿namespace StarCannon
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var firer = new CannonFirer();
+            firer.fireTheCannon();
         }
     }
 }
