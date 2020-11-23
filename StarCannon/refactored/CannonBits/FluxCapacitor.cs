@@ -1,8 +1,8 @@
 ﻿namespace StarCannon.refactored.CannonBits
 {
-    public class flux_capacitor
+    public class FluxCapacitor
     {
-        public double calculateGigawatts()
+        public double CalculateGigawatts()
         {
             return 1.21;
         }

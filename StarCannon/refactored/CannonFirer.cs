@@ -6,12 +6,12 @@ namespace StarCannon.refactored
 {
     public class CannonFirer
     {
-        public void fireTheCannon()
+        public void FireTheCannon()
         {
-            int theNumberes = addNumbers(1, 2);
-            int theOtherNumbers = addNumbers(new List<int> {1, 2, 3, 4});
+            var theNumberes = addNumbers(1, 2);
+            var theOtherNumbers = addNumbers(new List<int> {1, 2, 3, 4});
 
-            flux_capacitor capacitor = new flux_capacitor();
+            var capacitor = new FluxCapacitor();
 
             Console.WriteLine("Bang!");
         }
