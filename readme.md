@@ -3,21 +3,29 @@
 Please yell out, there's probably some stuff I'm doing that I don't realised I'm
 doing.
 
+Don't modify anything yet - go through navigation and tests.
+
 ## navigation
-    goto anything
-    goto implementation
-    find usages
-    navigate back/forward
+    goto anything: ctrl+t
+    goto definition: ctrl+click
+    find usages: F11 (custom)
+    navigate back/forward: ctrl +/- ??? mine's custom
 
 ## tests
-    run all tests
+    run all tests: no shortcut, alt-enter
+    repeat previous run: no shortcut, alt-enter
     run single test
     show fail/pass
 
+
 ## refactoring
-    accept resharper suggestions
-    fix namespaces
-    remove imports
+
+Now copy 'initial_state' to a new directory
+
+    fix namespaces: menu. Show what happened, and what's wrong in initial_state
+        - resharper does a lot in one go!
+            - remove unused imports
+    accept resharper suggestions: alt+enter
     format code
         format doc?
     rename
