@@ -12,7 +12,8 @@ namespace StarCannon.refactored
             var theNumberes = AddNumbers(1, 2);
             var theOtherNumbers = AddNumbers(new List<int> {1, 2, 3, 4});
 
-            var capacitor = new FluxCapacitor(3);
+            const int size = 3;
+            var capacitor = new FluxCapacitor(size);
 
             Console.WriteLine("Bang!");
         }
