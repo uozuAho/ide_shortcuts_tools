@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using StarCannon.refactored.CannonBits;
 
 namespace StarCannon.refactored
@@ -8,24 +9,22 @@ namespace StarCannon.refactored
     {
         public void FireTheCannon()
         {
-            var theNumberes = addNumbers(1, 2);
-            var theOtherNumbers = addNumbers(new List<int> {1, 2, 3, 4});
+            var theNumberes = AddNumbers(1, 2);
+            var theOtherNumbers = AddNumbers(new List<int> {1, 2, 3, 4});
 
             var capacitor = new FluxCapacitor();
 
             Console.WriteLine("Bang!");
         }
-        int addNumbers(int a, int b) {
-            return a + b;           
-        }
-        int addNumbers(List<int> numbers) {
-            int Sum = 0;    
-            foreach (var number in numbers) 
-            {
-                Sum += 1;                
-            }                
 
-            return Sum;
+        private static int AddNumbers(int a, int b)
+        {
+            return a + b;
+        }
+
+        private static int AddNumbers(IEnumerable<int> numbers)
+        {
+            return numbers.Sum();
         }
     }
 }

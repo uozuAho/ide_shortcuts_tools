@@ -26,9 +26,11 @@ Now copy 'initial_state' to a new directory
         - resharper does a lot in one go!
             - remove unused imports
     accept resharper suggestions: alt+enter
-    format code
-        format doc?
-    rename
+    format code: no shortcuts, alt+enter
+        format block
+        format selection
+        format doc
+    rename: F2 (custom?)
     introduce parameter
     extract method
     extract class
