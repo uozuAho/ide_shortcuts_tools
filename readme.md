@@ -38,10 +38,10 @@ Now copy 'initial_state' to a new directory
 if time, do debugging?
 
 
-Practice this yourself! A good kata to try this on:
-https://github.com/MYOB-Technology/General_Developer/tree/main/katas/kata-refactoring
+# Further reading/exercises
 
-
-# References
-
-rider shortcut cheat sheet: https://myob.slack.com/archives/C01F5CGNCLU/p1606089396069500
+- [refactoring kata](https://github.com/MYOB-Technology/General_Developer/tree/main/katas/kata-refactoring)
+- [MYOB things we value: refactoring](https://github.com/MYOB-Technology/General_Developer/blob/main/things-we-value/technical/programming/refactoring.md)
+- https://refactoring.guru/
+- [Martin Fowler's refactoring](https://refactoring.com/catalog/)
+- [Refactoring to patterns](https://www.amazon.com.au/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351)
