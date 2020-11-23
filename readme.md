@@ -11,7 +11,8 @@ doing.
 
 ## tests
     run all tests
-    run last session
+    run single test
+    show fail/pass
 
 ## refactoring
     accept resharper suggestions
