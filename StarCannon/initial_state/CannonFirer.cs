@@ -8,7 +8,7 @@ using StarCannon.CannonBits;
 
 namespace StarCannon
 {
-    class CannonFirer
+    public class CannonFirer
     {
         public void fireTheCannon()
         {

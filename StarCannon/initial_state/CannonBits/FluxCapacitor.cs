@@ -4,7 +4,11 @@ using System.Text;
 
 namespace StarCannon.CannonBits
 {
-    class flux_capacitor
+    public class flux_capacitor
     {
+        public double calculateGigawatts()
+        {
+            return 1.21;
+        }
     }
 }
