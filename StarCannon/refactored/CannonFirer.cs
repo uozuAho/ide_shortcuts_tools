@@ -9,13 +9,18 @@ namespace StarCannon.refactored
     {
         public void FireTheCannon()
         {
+            ChargeTheCapacitor();
+
+            Console.WriteLine("Bang!");
+        }
+
+        private static void ChargeTheCapacitor()
+        {
             var theNumberes = AddNumbers(1, 2);
             var theOtherNumbers = AddNumbers(new List<int> {1, 2, 3, 4});
 
             const int size = 3;
             var capacitor = new FluxCapacitor(size);
-
-            Console.WriteLine("Bang!");
         }
 
         private static int AddNumbers(int a, int b)
