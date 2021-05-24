@@ -18,6 +18,7 @@ Don't modify anything yet - go through navigation and tests first.
 - goto definition: ctrl+click
 - find usages: F11 (custom)
 - navigate back/forward: ctrl +/- ??? mine's custom
+- incoming calls, no shortcut, alt+enter
 
 
 ## tests
